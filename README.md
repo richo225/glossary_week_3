@@ -34,8 +34,20 @@ I am <% 46/2 &> years old!
 ```
 * **Global variables** => Never use them. Bad news!
 
+## Sinatra diagram
+
+![serverstructure-01](https://cloud.githubusercontent.com/assets/18379191/17270219/f0ef2548-5655-11e6-80db-0781c6b21623.jpg)
+
+* **Ports** => 
+
+* **Server** =>
+
+* **Rack** => 
+
 * **Controller** => Receives HTTP requests and calls the appropriate action based on matching routes .eg. our /app.rb file.
 
 * **Model layer** => Handles the complex OOP/data actions the controller sends it. In the battle app, the model layer consists of Class.rb files stored in the /lib folder.
+
+* **View** => Outputs/displays information from the model after it's manipulated by the controller commands.
 
 * **Separation of concerns** => 
